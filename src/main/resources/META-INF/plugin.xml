@@ -16,4 +16,10 @@
         <listener class="com.github.constfold.rustfmtsuki.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </projectListeners>
+    <actions>
+        <action id="com.github.constfold.rustfmtsuki.FormatAction" class="com.github.constfold.rustfmtsuki.FormatAction"
+                text="Reformat With It" description="Reformat current file with a formatter">
+            <add-to-group group-id="CodeFormatGroup" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>

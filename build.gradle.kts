@@ -51,10 +51,12 @@ intellij {
     downloadSources = platformDownloadSources.toBoolean()
     updateSinceUntilBuild = true
 
-//  Plugin Dependencies:
-//  https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_dependencies.html
-//
-//  setPlugins("java")
+    val plugins = listOf(
+            "org.rust.lang:0.3.126.3220-201",
+            "org.toml.lang:0.2.126.3220-201"
+    )
+
+    setPlugins(*plugins.toTypedArray())
 }
 
 // Configure detekt plugin.

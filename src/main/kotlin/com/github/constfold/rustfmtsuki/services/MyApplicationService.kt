@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.constfold.rustfmtsuki.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.constfold.rustfmtsuki.MyBundle
 
 class MyApplicationService {
 

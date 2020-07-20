@@ -7,15 +7,6 @@
     <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.constfold.rustfmtsuki.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.constfold.rustfmtsuki.services.MyProjectService"/>
-    </extensions>
-
-    <projectListeners>
-        <listener class="com.github.constfold.rustfmtsuki.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </projectListeners>
     <actions>
         <action id="com.github.constfold.rustfmtsuki.FormatAction" class="com.github.constfold.rustfmtsuki.FormatAction"
                 text="Reformat With It" description="Reformat current file with a formatter">

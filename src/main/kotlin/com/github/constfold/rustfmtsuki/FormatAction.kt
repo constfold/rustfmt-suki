@@ -2,10 +2,7 @@ package com.github.constfold.rustfmtsuki
 
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.actionSystem.CommonDataKeys
-import com.intellij.openapi.fileTypes.FileType
 import com.intellij.openapi.project.DumbAwareAction
-import org.rust.lang.RsFileType
-
 
 class FormatAction : DumbAwareAction() {
     override fun actionPerformed(e: AnActionEvent) {
@@ -17,4 +14,3 @@ class FormatAction : DumbAwareAction() {
         }
     }
 }
-

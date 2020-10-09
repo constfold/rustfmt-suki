@@ -1,5 +1,5 @@
 # rustfmt-suki
-**CONGRATULATIONS!** This plugin is no longer required since `Intellij-Rust` added a new feature for this purpose recently. Please see [`Intellij-Rust` changelog #132](ssss) for more information.
+**CONGRATULATIONS!** This plugin is no longer required since `Intellij-Rust` added a new feature for this purpose recently. Please see [`Intellij-Rust` changelog #132](https://intellij-rust.github.io/2020/10/05/changelog-132.html) for more information.
 
 ![Build](https://github.com/constfold/rustfmt-suki/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
